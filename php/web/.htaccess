@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^style/.*$ - [L]
+RewriteRule ^media/.*$ - [L]
+RewriteRule ^js/.*$ - [L]
+
+RewriteRule ^index.php$ - [L]
+RewriteRule ^Media/(.*)$ index.php?service=Media&path=$1 [L,QSA]
+RewriteRule ^Wiki/(.*)$ index.php?service=Wiki&page=$1 [L,QSA]
+RewriteRule ^(.+)/$ index.php?service=$1 [L,QSA]
+RewriteRule ^(.+)$ index.php?service=$1 [L,QSA]

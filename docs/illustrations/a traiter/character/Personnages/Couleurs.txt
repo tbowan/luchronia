@@ -1,0 +1,116 @@
+--[Peau Humain
+
+1 -[ Très claire + tâches de rousseur
+Teinte/Saturation 0/100/100
+Tâches #eacec3 + flou gaussien
+
+2 -[ très claire
+Teinte/Saturation 0/75/75
+
+3 -[ claire
+base #f9ece7 ombre1 #d4b8ae ombre2 #b18f82 lumière #fffcfb
+
+4 -[ mate 
+Teinte/Saturation 20/-15/15
+
+5 -[ foncée
+Teinte/Saturation 10/-40/20
+
+6 -[ noire 
+Teinte/Saturation 10/-80/-35
+
+--[Bouche Humain
+
+1 -[ rouge
+base #bf3c3c ombre1 #a62626 ombre2 #791010 lumière #f98787
+
+2 -[ orange
+Teinte/Saturation 22/36/-27
+
+3 -[ rose
+Teinte/Saturation -43/52/-20
+
+4 -[ rose foncé
+Teinte/Saturation -19/-87/71
+
+5 -[ foncée
+Teinte/Saturation 0/-100/-51
+
+--[Yeux Humain
+
+1 -[ ambre
+base #ffe9b3 ombre1 #e8ce91 ombre2 #d4b468 lumière #fffbf2
+
+2 -[ bleu
+Coloriser 180/50/-42
+
+3 -[ vert
+Coloriser 13/60/-15
+
+4 -[ gris
+Coloriser 190/20/-20
+
+5 -[ marron
+Coloriser 30/40/-57
+
+6 -[ noisette
+Coloriser 34/33/-26
+
+7 -[ marron foncé
+Coloriser 37/15/-73
+
+8 -[ rouge
+Coloriser 0/100/0
+
+--[Cheveux Humain
+
+1 -[ noir
+Teinte/Saturation 0/-95/-76
+
+2 -[ brun
+Teinte/Saturation 0/-57/24
+
+3 -[ auburn
+Teinte/Saturation -13/-26/34
+
+4 -[ chatain
+base #a6876c ombre1 #88684c ombre2 #6d4d30 lumière #e0c8b2
+
+5 -[ roux
+Teinte/Saturation -7/32/100
+
+6 -[ blond
+Teinte/Saturation 20/60/57
+
+7 -[ blanc
+Teinte/Saturation 180/100/-70
+
+
+--[ Vetements
+
+Or : 
+base #ffe9b3 ombre1 #e1c78a ombre2 #ac9254 lumière #fff5de
+
+Bleu marine : 
+base #3f3896 ombre1 #282279 ombre2 #120d52 lumière #726bcb
+
+rouge : 
+Teinte/Saturation 113/-18/31
+
+vert : 
+Teinte/Saturation -93/-42/-48
+
+--[ Chaussures 
+
+Or : 
+base #ffe9b3 ombre1 #e1c78a ombre2 #ac9254 lumière #fff5de
+
+Marron :
+base #82543e ombre1 #6a3f2a ombre2 #412111 lumière #bd9885
+
+Marron Foncé :
+Teinte/Saturation 0/-100/0
+
+Noir :
+Teinte/Saturation 0/-100/-100
+

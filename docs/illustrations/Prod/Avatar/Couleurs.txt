@@ -1,0 +1,325 @@
+--[Peau Humain
+
+1 -[ Très claire + tâches de rousseur
+Teinte/Saturation 0/100/100
+Tâches #eacec3 + flou gaussien
+
+2 -[ très claire
+Teinte/Saturation 0/75/75
+
+3 -[ claire
+base #f9ece7 ombre1 #d4b8ae ombre2 #b18f82 lumière #fffcfb
+
+4 -[ mate 
+Teinte/Saturation 20/-15/15
+
+5 -[ foncée
+Teinte/Saturation 10/-40/20
+
+6 -[ noire 
+Teinte/Saturation 10/-80/-35
+
+--[Bouche Humain Femme
+
+1 -[ rouge
+base #bf3c3c ombre1 #a62626 ombre2 #791010 lumière #f98787
+
+2 -[ orange
+Teinte/Saturation 22/36/-27
+
+3 -[ rose
+Teinte/Saturation -43/52/-20
+
+4 -[ rose foncé
+Teinte/Saturation -19/-87/71
+
+5 -[ foncée
+Teinte/Saturation 0/-100/-51
+
+
+--[Bouche Humain Homme
+
+1 -[ rouge
+base c45d5d ombre1 ab4a4a ombre2 943535 lumière e17d7d
+
+2 -[ orangé
+Teinte/Saturation 10/40/-20
+
+3 -[ rosé
+Teinte/Saturation -38/70/-35
+
+4 -[ peau
+Teinte/Saturation 26/94/-30
+
+5 -[ foncée
+Teinte/Saturation 0/-60-
+
+
+--[Cheveux Humain
+
+1 -[ noir
+Teinte/Saturation 0/-95/-76
+
+2 -[ brun
+Teinte/Saturation 0/-57/24
+
+3 -[ auburn
+Teinte/Saturation -13/-26/34
+
+4 -[ chatain
+base #a6876c ombre1 #88684c ombre2 #6d4d30 lumière #e0c8b2
+
+5 -[ roux
+Teinte/Saturation -7/32/100
+
+6 -[ blond
+Teinte/Saturation 20/60/57
+
+7 -[ blanc
+Teinte/Saturation 180/100/-70
+
+--[Yeux Humain
+
+1 -[ ambre
+base #ffe9b3 ombre1 #e8ce91 ombre2 #d4b468 lumière #fffbf2
+
+2 -[ bleu
+Colorier 180/50/-42
+
+3 -[ vert
+Colorier 113/60/20
+
+4 -[ gris
+Colorier 190/20/0
+
+5 -[ marron
+Coloriser 30/40/-57
+
+6 -[ noisette
+Colorier 34/33/-26
+
+7 -[ marron foncé
+Colorier 37/15/-73
+
+8 -[ rouge
+Coloriser 0/100/0
+
+
+
+
+--[Peau Selenite
+-[ base (peau claire humaine)
+base #f9ece7 ombre1 #d4b8ae ombre2 #b18f82 lumière #fffcfb
+
+1 -[ diamant
+Teinte/Saturation -180/80/0
+
+2 -[ saphir
+Teinte/Saturation -140/-25/100
+
+3 -[  rubis
+Teinte/Saturation -22/-44/-46
+
+4 -[ emeraude
+Teinte/Saturation 126/38/29
+
+5 -[ ambre
+Teinte/Saturation 41/62/60
+
+6 -[ amethyste
+Teinte/Saturation -60/60/60
+
+--[Bouche Selenite Femme
+-[ base (bouche ruge humaine)
+base #bf3c3c ombre1 #a62626 ombre2 #791010 lumière #f98787
+
+1 -[ rouge
+Teinte/Saturation -8-20/30
+
+2 -[ bleu
+Teinte/Saturation -104/36/-8
+
+3 -[ vert
+Teinte/Saturation 178/25/-38
+
+4 -[ jaune
+Teinte/Saturation 58/100/-47
+
+5 -[ blanc
+Teinte/Saturation -180/100/-72
+
+
+
+--[Bouche Selenite Homme
+-[ base (bouche ruge humaine)
+base c45d5d ombre1 ab4a4a ombre2 943535 lumière e17d7d
+
+1 -[ rouge
+Teinte/Saturation -8-20/30
+Luminosité/Contraste 80/-60
+
+2 -[ bleu
+Teinte/Saturation -104/36/-8
+Luminosité/Contraste -40/-40
+
+3 -[ vert
+Teinte/Saturation 178/25/-38
+
+4 -[ jaune
+Teinte/Saturation 58/100/-47
+
+5 -[ blanc
+Teinte/Saturation -180/100/-72
+
+
+--[Cheveux Selenite
+-[ base (chatain humain)
+base #a6876c ombre1 #88684c ombre2 #6d4d30 lumière #e0c8b2
+
+1 -[ violet
+Teinte/Saturation -111/23/23
+
+2 -[ indigo
+Teinte/Saturation -148/0/0
+
+3 -[ bleu
+Teinte/Saturation -180/96/-14
+
+4 -[ vert
+Teinte/Saturation 108/0/0
+
+5 -[ jaune
+Teinte/Saturation 32/100/-1
+
+6 -[ orangé
+Teinte/Saturation 4/100/58
+
+7 -[ rouge
+Teinte/Saturation -24/67/38
+
+--[Yeux Selenite
+
+1 -[ noir
+base #ffffff lumière #868585
+
+2 -[ quartz
+Coloriser 183/34/70
+
+3 -[ cornaline
+Coloriser 30/80/30
+
+4 -[ avanturine
+Coloriser 175/66/21
+
+5 -[ oeil de tigre
+Coloriser 54/50/38
+
+6 -[ jaspe
+Coloriser 0/43/26
+
+7 -[ rose
+Coloriser 0/24/74
+
+8 -[ sodalite
+Coloriser 207/36/13
+
+
+
+
+
+
+
+
+
+--[Peau Cyborg
+-[ base (peau claire humaine)
+base #f9ece7 ombre1 #d4b8ae ombre2 #b18f82 lumière #fffcfb
+
+1 -[ Cuivre
+Coloriser #B36700
+
+2 -[ Or
+Coloriser #FFD700
+
+3 -[ Argent
+Coloriser #CECECE
+
+4 -[ Bronze
+Coloriser #614e1a
+
+5 -[ Vert de gris
+Coloriser #95a595
+
+6 -[ Blanc lunaire
+Coloriser #f4fefe
+
+
+--[Bouche Cyborg Femme
+
+1 -[ blanc de zinc
+base #f6fefe ombre1 #cddede ombre2 #9ababa lumière #ffffff
+
+2 -[ orangé
+Colorier 37/33/-20
+
+3 -[ grisé
+Colorier 180/11/0
+
+4 -[ Dorée
+Colorier 71/66/7
+
+5 -[ Vert de Gris
+Colorier 140/36/13
+
+
+--[Cheveux Cyborg
+1 -[Base : Rouge cramoisi (fille)
+base #dc143c ombre #a90726 1 ombre2 #82051c lumlière #ff4d6f
+
+1 -[Base : Rouge cramoisi (garçon)
+base #c8251d ombre #a2160f 1 ombre2 #790d08 lumlière #ff4c43
+
+2 -[ noir
+Teinte/Saturation 0/-85/-85
+
+3 -[Vert
+teinte/Saturation 128/10/-5
+
+4 -[ Bleu
+teinte/Saturation -174/12/-8
+
+5 -[ Jaune
+teinte/Saturation 67/95/-15
+
+6 -[ Rouille
+Teinte/Saturation 46/-59/-11
+
+
+7 -[ blanc
+Teinte/Saturation -180/100/-100
+
+--[Yeux Cyborg
+
+1 -[ Violet
+base ebd3fb ombre1 c7a8db ombre2 9b75b3 lumière f9f0ff
+
+2 -[ bleu
+Colorier 180/55/12
+
+3 -[ vert
+Colorier 113/57/24
+
+4 -[ jaune
+Colorier 64/54/23
+
+5 -[ rouge
+Coloriser 0/60/20
+
+6 -[ rouillé
+Colorier 40/37/-25
+
+7 -[ gris
+Colorier 180/0/0
+
+8 -[ plastique
+Coloriser 180/29/35

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-12-15" view-index="0" gantt-divider-location="475" resource-divider-location="300" version="2.0" locale="fr">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="47" order="0"/>
+        <field id="tpd4" name="Date de début" width="17" order="1"/>
+        <field id="tpd5" name="Date de fin" width="20" order="2"/>
+        <field id="tpd6" name="Durée" width="14" order="3"/>
+        <option id="taskLabelLeft" value=""/>
+        <option id="taskLabelRight" value=""/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="50" order="0"/>
+        <field id="1" name="Rôle par défaut" width="50" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <only-show-weekends value="false"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="303" name="Version 0" color="#8cb6ce" meeting="false" start="2013-10-18" duration="105" complete="0" expand="false">
+            <task id="101" name="0.1 - Alpha" color="#ff9966" meeting="true" start="2013-10-18" duration="0" complete="0" expand="true"/>
+            <task id="108" name="0.1.11" color="#ff9966" meeting="true" start="2013-10-31" duration="0" complete="0" expand="true"/>
+            <task id="111" name="0.1.12" color="#ff9966" meeting="true" start="2013-11-06" duration="0" complete="0" expand="true"/>
+            <task id="114" name="0.1.12.1" color="#ff9966" meeting="true" start="2013-11-08" duration="0" complete="0" expand="true"/>
+            <task id="117" name="0.1.12.2" color="#ff9966" meeting="true" start="2013-11-11" duration="0" complete="0" expand="true"/>
+            <task id="120" name="0.1.13" color="#ff9966" meeting="true" start="2013-11-13" duration="0" complete="0" expand="true"/>
+            <task id="123" name="0.1.14" color="#ff9966" meeting="true" start="2013-11-14" duration="0" complete="0" expand="true"/>
+            <task id="126" name="0.1.15" color="#ff9966" meeting="true" start="2013-11-20" duration="0" complete="0" expand="true"/>
+            <task id="129" name="0.1.16" color="#ff9966" meeting="true" start="2013-11-22" duration="0" complete="0" expand="true"/>
+            <task id="132" name="0.1.18" color="#ff9966" meeting="true" start="2013-11-25" duration="0" complete="0" expand="true"/>
+            <task id="135" name="0.2" color="#ff9966" meeting="true" start="2013-11-29" duration="0" complete="0" expand="true"/>
+            <task id="138" name="0.2.2" color="#ff9966" meeting="true" start="2013-12-02" duration="0" complete="0" expand="true"/>
+            <task id="141" name="0.2.3" color="#ff9966" meeting="true" start="2013-12-02" duration="0" complete="0" expand="true"/>
+            <task id="144" name="0.2.4" color="#ff9966" meeting="true" start="2013-12-04" duration="0" complete="0" expand="true"/>
+            <task id="147" name="0.2.5" color="#ff9966" meeting="true" start="2013-12-06" duration="0" complete="0" expand="true"/>
+            <task id="150" name="0.2.6" color="#ff9966" meeting="true" start="2013-12-12" duration="0" complete="0" expand="true"/>
+            <task id="153" name="0.2.7" color="#ff9966" meeting="true" start="2013-12-23" duration="0" complete="0" expand="true"/>
+            <task id="156" name="0.2.8" color="#ff9966" meeting="true" start="2014-02-03" duration="0" complete="0" expand="true"/>
+            <task id="159" name="0.2.9" color="#ff9966" meeting="true" start="2014-03-14" duration="0" complete="0" expand="true"/>
+        </task>
+        <task id="324" name="Version 1" color="#8cb6ce" meeting="false" start="2014-08-01" duration="132" complete="9" expand="true">
+            <task id="385" name="&lt; 1.8" color="#8cb6ce" meeting="false" start="2014-08-01" duration="20" complete="0" expand="false">
+                <task id="184" name="1.0 - bêta" color="#ff9966" meeting="true" start="2014-08-01" duration="0" complete="0" expand="true"/>
+                <task id="187" name="1.1" color="#ff9966" meeting="true" start="2014-08-06" duration="0" complete="0" expand="true"/>
+                <task id="190" name="1.2" color="#ff9966" meeting="true" start="2014-08-07" duration="0" complete="0" expand="true"/>
+                <task id="193" name="1.2.1" color="#ff9966" meeting="true" start="2014-08-08" duration="0" complete="0" expand="true"/>
+                <task id="196" name="1.3" color="#ff9966" meeting="true" start="2014-08-08" duration="0" complete="0" expand="true"/>
+                <task id="199" name="1.4" color="#ff9966" meeting="true" start="2014-08-13" duration="0" complete="0" expand="true"/>
+                <task id="202" name="1.5" color="#ff9966" meeting="true" start="2014-08-14" duration="0" complete="0" expand="true"/>
+                <task id="205" name="1.6" color="#ff9966" meeting="true" start="2014-08-15" duration="0" complete="0" expand="true"/>
+                <task id="208" name="1.6.1" color="#ff9966" meeting="true" start="2014-08-15" duration="0" complete="0" expand="true"/>
+                <task id="211" name="1.6.2" color="#ff9966" meeting="true" start="2014-08-18" duration="0" complete="0" expand="true"/>
+                <task id="214" name="1.7" color="#ff9966" meeting="true" start="2014-08-25" duration="0" complete="0" expand="true"/>
+                <task id="217" name="1.7.3" color="#ff9966" meeting="true" start="2014-08-29" duration="0" complete="0" expand="true"/>
+            </task>
+            <task id="434" name="Version 1.8" color="#8cb6ce" meeting="false" start="2014-09-04" duration="5" complete="0" expand="false">
+                <task id="229" name="1.8 - connaissances" color="#ff9966" meeting="true" start="2014-09-04" duration="0" complete="0" expand="true"/>
+                <task id="232" name="1.8.2" color="#ff9966" meeting="true" start="2014-09-09" duration="0" complete="0" expand="true"/>
+                <task id="235" name="1.8.3" color="#ff9966" meeting="true" start="2014-09-11" duration="0" complete="0" expand="true"/>
+            </task>
+            <task id="439" name="Version 1.9" color="#8cb6ce" meeting="false" start="2014-09-15" duration="6" complete="0" expand="false">
+                <task id="238" name="1.9 - militaire" color="#ff9966" meeting="true" start="2014-09-15" duration="0" complete="0" expand="true"/>
+                <task id="241" name="1.9.1" color="#ff9966" meeting="true" start="2014-09-23" duration="0" complete="0" expand="true"/>
+            </task>
+            <task id="449" name="Version 1.10" color="#8cb6ce" meeting="false" start="2014-09-29" duration="36" complete="0" expand="false">
+                <task id="244" name="1.10" color="#ff9966" meeting="true" start="2014-09-29" duration="0" complete="0" expand="true"/>
+                <task id="267" name="1.10.1" color="#ff9966" meeting="true" start="2014-10-01" duration="0" complete="0" expand="true"/>
+                <task id="270" name="1.10.2" color="#ff9966" meeting="true" start="2014-10-03" duration="0" complete="0" expand="true"/>
+                <task id="273" name="1.10.3" color="#ff9966" meeting="true" start="2014-10-10" duration="0" complete="0" expand="true"/>
+                <task id="276" name="1.10.4" color="#ff9966" meeting="true" start="2014-10-21" duration="0" complete="0" expand="true"/>
+                <task id="279" name="1.10.5" color="#ff9966" meeting="true" start="2014-11-12" duration="0" complete="0" expand="true"/>
+                <task id="282" name="1.10.6" color="#ff9966" meeting="true" start="2014-11-18" duration="0" complete="0" expand="true"/>
+            </task>
+            <task id="459" name="Version 1.11" color="#8cb6ce" meeting="false" start="2014-11-19" duration="52" complete="23" expand="true">
+                <task id="285" name="Production initiale" color="#ff9966" meeting="true" start="2014-11-20" duration="0" complete="0" expand="true"/>
+                <task id="80" name="1.11.1" color="#8cb6ce" meeting="false" start="2014-11-19" duration="4" complete="0" expand="false">
+                    <task id="0" name="Bâtiment : Marché" color="#99ffcc" meeting="false" start="2014-11-19" duration="1" complete="100" expand="true">
+                        <notes><![CDATA[On a simplifié la tâche. Plutôt que plusieurs modes de fonctionnements (ordres d'achat, de vente, enchères, ...) on ne fait plus que des ordres de ventes et les personnages peuvent les consulter et acheter ce qui est déjà en vente.
+
+Tâche faite en une journée au lieu de deux prévues initialement]]></notes>
+                        <depend id="1" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="1" name="Bâtiment : Hôpital" color="#99ffcc" meeting="false" start="2014-11-20" duration="3" complete="100" expand="true">
+                        <notes><![CDATA[L'académie et le système de prestation de compétence est fait.]]></notes>
+                        <depend id="2" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="84" name="1.11.2" color="#8cb6ce" meeting="false" start="2014-11-25" duration="3" complete="75" expand="false">
+                    <task id="2" name="Bâtiment : Forum" color="#99ffcc" meeting="false" start="2014-11-25" duration="1" complete="100" expand="true">
+                        <notes><![CDATA[Utilisé pour la tâche : 1.5
+
+0.5 ont été pris en avance sur les messages privés et le bureau de poste]]></notes>
+                        <depend id="3" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="3" name="Messagerie privée" color="#99ffcc" meeting="false" start="2014-11-26" duration="1" complete="100" expand="true">
+                        <notes><![CDATA[Fait en même temps que le bureau de poste, 1.5 jours pour les deux]]></notes>
+                        <depend id="15" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="15" name="Bâtiment : Poste" color="#99ffcc" meeting="false" start="2014-11-27" duration="1" complete="100" expand="true">
+                        <depend id="97" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="89" name="Version 1.11.3" color="#8cb6ce" meeting="false" start="2014-11-28" duration="1" complete="100" expand="false">
+                    <task id="97" name="Registre et dons" color="#99ffcc" meeting="false" start="2014-11-28" duration="1" complete="100" expand="true">
+                        <notes><![CDATA[Avec plein d'autres améliorations ergonomiques]]></notes>
+                        <depend id="469" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="99" name="Version 1.11.4" color="#8cb6ce" meeting="false" start="2014-12-01" duration="5" complete="100" expand="false">
+                    <task id="469" name="Invitations et mails" color="#99ffcc" meeting="false" start="2014-12-01" duration="2" complete="100" expand="true">
+                        <depend id="8" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="8" name="Votes et politique" color="#99ffcc" meeting="false" start="2014-12-03" duration="3" complete="100" expand="true">
+                        <depend id="483" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="477" name="Version 1.11.5" color="#8cb6ce" meeting="false" start="2014-12-08" duration="2" complete="100" expand="false">
+                    <task id="483" name="Codes d'accès et invitations" color="#99ffcc" meeting="false" start="2014-12-08" duration="2" complete="100" expand="true">
+                        <depend id="518" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="480" name="Version 1.11.6" color="#8cb6ce" meeting="false" start="2014-12-10" duration="1" complete="0" expand="true">
+                    <task id="518" name="Colombages + petites choses" color="#8cb6ce" meeting="false" start="2014-12-10" duration="1" complete="0" expand="true">
+                        <depend id="70" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="495" name="Version 1.11.7" color="#8cb6ce" meeting="false" start="2014-12-11" duration="2" complete="0" expand="false">
+                    <task id="70" name="Didacticiel" color="#8cb6ce" meeting="false" start="2014-12-11" duration="2" complete="0" expand="true">
+                        <depend id="28" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="522" name="Version 1.11.10" color="#8cb6ce" meeting="false" start="2014-12-15" duration="5" complete="0" expand="false">
+                    <task id="28" name="Ecran de carte" color="#8cb6ce" meeting="false" start="2014-12-15" duration="5" complete="0" expand="true">
+                        <depend id="53" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="95" name="Reste" color="#8cb6ce" meeting="false" start="2015-01-05" duration="19" complete="0" expand="true">
+                    <task id="13" name="Items payants" color="#8cb6ce" meeting="false" start="2015-01-05" duration="5" complete="0" expand="true">
+                        <depend id="7" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="7" name="Archéologie / Prospection" color="#8cb6ce" meeting="false" start="2015-01-12" duration="2" complete="0" expand="true">
+                        <depend id="16" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="16" name="Bâtiment : Bourse" color="#8cb6ce" meeting="false" start="2015-01-14" duration="1" complete="0" expand="true">
+                        <depend id="26" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="26" name="Bâtiment : Astroport" color="#8cb6ce" meeting="false" start="2015-01-15" duration="1" complete="0" expand="true">
+                        <depend id="17" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="17" name="Bâtiment : Routes" color="#8cb6ce" meeting="false" start="2015-01-16" duration="1" complete="0" expand="true">
+                        <depend id="18" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="18" name="Bâtiment : Préfecture" color="#8cb6ce" meeting="false" start="2015-01-19" duration="3" complete="0" expand="true">
+                        <depend id="19" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="19" name="Bâtiment : Palais" color="#8cb6ce" meeting="false" start="2015-01-22" duration="3" complete="0" expand="true">
+                        <depend id="6" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="6" name="Bâtiment : Taverne" color="#8cb6ce" meeting="false" start="2015-01-27" duration="3" complete="0" expand="true">
+                        <depend id="78" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+            </task>
+            <task id="53" name="Vacances" color="#ffcccc" meeting="false" start="2014-12-22" duration="10" complete="0" thirdDate="2014-12-22" thirdDate-constraint="1" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="78" name="End" color="#ff9999" meeting="false" start="2015-02-02" duration="1" complete="0" thirdDate="2015-02-01" thirdDate-constraint="1" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Henin Thibaut" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2014-12-22" end="2015-01-05" resourceid="0"/>
+    </vacations>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="222" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="84" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="98" visible="true"/>
+        <displaycolumn property-id="tpd6" order="3" width="67" visible="true"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

@@ -1,0 +1,259 @@
+* {
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    
+}
+
+
+body, div { margin: 0 ; padding: 0 ; }
+
+.clear       { clear : both ;  }
+.clear-right { clear : right ; }
+.clear-left  { clear : left ;  }
+
+body {
+    background : #F5F5F5 ;
+    font-family: "Courier New";
+}
+
+a{
+    color : #9A7F64;
+    text-decoration : none;
+}
+
+a:hover {
+    text-decoration: underline ;
+}
+
+/* Top*/
+
+
+#Top {
+    height : 50px;
+    line-height: 50px;   
+    background : #201b15;
+    border-bottom : solid 1px #bfb8a8;
+
+
+
+    position: fixed ;
+    top: 0 ;
+    left: 0 ;
+    right: 0 ;
+
+    z-index : 99;
+    font-family: 'Special Elite', monospace;
+}
+
+#Top * {
+    margin: 0 ;
+    padding: 0 ;
+    line-height: 50px ;
+    color: #dfdcd4 ;
+}
+
+#Top div.clear {
+    clear: both ;
+}
+
+
+
+#T-Right{
+    padding-left : 80px;
+    float : left;
+}
+
+#T-Left{
+    float : right;
+    padding-right : 25px;
+}
+
+
+#Top li {
+    display: block ;
+    float: left ;
+    list-style-type: none ;
+    padding-left : 5px;
+}
+
+#Top li a {
+    text-decoration: none ;
+    color: #dfdcd4 ; /* IE11 ne prend pas "inherit" */
+    display: block ;
+    padding: 0 5px 0 0 ;
+}
+
+#Top a img {
+    vertical-align: middle ;
+    height: 32px ;
+    width : 32px;
+    margin-right: 5px ;
+    border: none ;
+    background : url('/style/images/back.png') no-repeat;
+}
+
+#Navigation span {
+    display: none ;
+}
+
+/*Menu*/
+
+
+#Main {
+    position: absolute;
+    top: 50px ;
+    left: 0 ;
+    right: 0 ;
+	/* background : #bfb8a8 url('/style/images/main.png') no-repeat;
+    background-size : cover; */
+	background : #e9decc;
+        color : #5b594e;
+}
+
+#Header-Gap {
+    height: 250px ;
+    width : 100%;
+    background: url('/style/images/Background.jpeg') no-repeat fixed center top ;
+    background-color : black;
+	background-size : auto 400px;
+}
+
+#Header-Content {
+    height: 80px ;
+    border-style: solid;
+    border-width: 2px;
+    border : white;
+    box-shadow: 0px 2px 2px #ddd;
+    background : #fefefe ;
+}
+
+#Header .wrapper {
+    margin: 0 auto 0 auto ;
+    max-width: 1280px ;
+}
+
+
+#Header-Image {
+    display: inline-block ;
+    vertical-align: top ;
+
+    width: 32% ;
+    height: 200px ;
+    text-align: center ;
+    
+    position: relative ;
+    bottom: 60px ;
+}
+
+#Header-Image img {
+    width: 200px ;
+    height: 200px ;
+    background : #fefefe ;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border : white;
+    box-shadow: 0px 2px 2px #ddd;
+
+}
+
+#Header-Title{
+    display: inline-block ;
+    vertical-align: top ;
+    width: 66% ;
+    font-family: 'Special Elite', monospace;
+    padding-left: 40px;
+}
+
+#Header-Title *{
+    margin : 5px 0 0 0;
+    padding : 5px;
+}
+
+#Container{
+    margin : 80px auto 10px auto;
+    max-width : 1280px;
+}
+
+#Menu {
+    display: inline-block ;
+    vertical-align: top ;
+    width: 32%;
+}
+
+#Menu .wrapper {
+    background : #fefefe ;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border : white;
+    box-shadow: 0px 2px 2px #ddd;    
+    padding: 20px ;
+    margin : 20px;
+}
+
+#Menu ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;        
+}
+
+#Menu h1, #Content h2{
+    text-align : center;
+    background : #201b15;
+    color : #dfdcd4;
+    padding : 5px 0 5px 0;
+    box-shadow: 0px 2px 2px #bfb8a8;
+    font-family: 'Special Elite', monospace;
+}
+
+#Character{
+    min-height : 220px;
+}
+
+#Character ul{
+    margin-left : 120px;
+    
+}
+
+#Menu object{
+    margin : auto;	
+    display : block;
+    float : left;
+}
+
+#Content  {
+    display: inline-block ;
+    vertical-align: top ;
+    width: 66%;
+}
+
+#Content .wrapper {
+    background : #fefefe ;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border : white;
+    box-shadow: 0px 2px 2px #ddd;
+    
+    padding: 20px ;
+    margin : 20px;
+}
+
+#Footer {
+    position : relative;
+    margin : auto;
+    border-top: 1px solid #E5E5E5;
+    background-color: #F5F5F5;	
+    text-align: center;
+    height : 50px;
+}
+
+img.avatar-layer-icone {
+    width: 50px;
+    float: left;
+    margin: 3px;
+    background : rgba(139,108,66,0.3);
+}

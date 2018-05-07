@@ -1,0 +1,28 @@
+
+table {
+    border-collapse: collapse ;
+    width: 100% ;
+    margin: 20px 0 20px 0 ;
+}
+
+th {
+    padding: 4px 4px 4px 4px;
+}
+
+table.big td {
+    padding: 10px ;
+}
+
+td {
+    border-top: solid 1px  #84a6a6;
+}
+
+tr.unread {
+    font-weight: bold ;
+    background: #ddd;
+}
+
+tr:hover td {
+    background: #ddd ;
+}
+

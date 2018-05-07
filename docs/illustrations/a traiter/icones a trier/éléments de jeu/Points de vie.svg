@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Points de vie.svg"
+   inkscape:export-filename="D:\SVN\Luchronia\docs\artwork\éléments de jeu\Points de vie.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter3884"
+       x="-0.12049383"
+       width="1.2409877"
+       y="-0.079503814"
+       height="1.1590076">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="9.1996354"
+         id="feGaussianBlur3886" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3905"
+       x="-0.17361526"
+       width="1.3472305"
+       y="-0.16929628"
+       height="1.3385926">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.9254363"
+         id="feGaussianBlur3907" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter3905-4"
+       x="-0.17361526"
+       width="1.3472306"
+       y="-0.16929628"
+       height="1.3385926">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.9254363"
+         id="feGaussianBlur3907-0" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="315.86487"
+     inkscape:cy="480.89806"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="968"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3015" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 215.71875,429.5 c -51.00329,0 -95.71875,2.86218 -95.5625,92.875 l 0.65625,0 C 120,622.36218 120,622.36218 250.5,699.4375 c 39.5,12.92468 58.54821,58.19052 61.9375,101.5 l 0.84375,0 C 316.78678,756.14277 330,712.36218 378.8125,697.375 500,622.36218 500,622.36218 502.78125,521.65625 l -0.125,0 C 500,432.36218 457.92183,429.5 407.15625,429.5 c -50.76558,0 -92.3173,40.71129 -95.53125,92.15625 l -0.375,0 C 308.03605,470.21129 266.48433,429.5 215.71875,429.5 z"
+       id="path2995-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccccccccsccs"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#aa0000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;opacity:0.62393162000000002;filter:url(#filter3884)"
+       d="m 150,462.36218 c -6.66667,20 -13.33333,40 -20,60 -10.94659,130.29381 130.12527,123.68912 178.00665,206.01331 2.1028,7.24961 1.99335,23.98669 4.5096,-3.56206 C 315.01083,717.32968 277.50542,679.84593 280,672.36218 211.8266,633.2931 195.36778,634.66595 159.89099,571.70811 151.80227,531.96935 150,498.93091 150,462.36218 z"
+       id="path3079"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="D:\SVN\Luchronia\docs\artwork\éléments de jeu\path2995-1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;filter:url(#filter3905)"
+       d="m 185.71429,460.93361 c 5.42998,11.01898 20.05785,9.59996 28.01842,17.81025 17.5123,13.3909 33.27693,29.27599 45.88575,47.38011 5.06816,8.03636 7.89467,17.85232 5.85611,27.31163 3.97303,8.66811 11.13682,-5.50817 15.16155,-8.90305 7.51357,-8.03615 14.14739,-17.83492 14.27017,-29.24356 1.72617,-13.63569 -2.65444,-28.03122 -12.90734,-37.43785 -14.03915,-13.75144 -29.93744,-26.7706 -49.52159,-31.32723 -11.1919,-2.16614 -23.8586,-5.25016 -34.3029,1.14755 -5.50252,2.71842 -11.14449,6.88928 -12.46017,13.26215 z"
+       id="path3888"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\SVN\Luchronia\docs\artwork\éléments de jeu\path2995-1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3905-4)"
+       d="m 380,458.07647 c 5.42998,11.01898 20.05785,9.59996 28.01842,17.81025 17.5123,13.3909 33.27693,29.27599 45.88575,47.38011 5.06816,8.03636 7.89467,17.85232 5.85611,27.31163 3.97303,8.66811 11.13682,-5.50817 15.16155,-8.90305 7.51357,-8.03615 14.14739,-17.83492 14.27017,-29.24356 1.72617,-13.63569 -2.65444,-28.03122 -12.90734,-37.43785 -14.03915,-13.75144 -29.93744,-26.7706 -49.52159,-31.32723 -11.1919,-2.16614 -23.8586,-5.25016 -34.3029,1.14755 -5.50252,2.71842 -11.14449,6.88928 -12.46017,13.26215 z"
+       id="path3888-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\SVN\Luchronia\docs\artwork\éléments de jeu\path2995-1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

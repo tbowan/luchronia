@@ -1,0 +1,31 @@
+
+a {
+    color : #DE7F1F;
+    text-decoration : none;
+}
+
+a:hover {
+    text-decoration: underline ;
+}
+
+h4 {
+    
+}
+
+h5 {
+    
+}
+
+h6 {
+    
+}
+
+p {
+    
+}
+
+blockquote {
+    margin-left: 2em ;
+    padding-left: 2em ;
+    border-left: solid 5px ;
+}

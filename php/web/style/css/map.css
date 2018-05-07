@@ -1,0 +1,9 @@
+
+path.map_city_path {
+    stroke: black ;
+}
+
+path.map_city_path:hover {
+    fill: #866 ;
+    stroke: black ;
+}

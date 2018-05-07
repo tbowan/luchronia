@@ -1,0 +1,604 @@
+* {
+            box-sizing: border-box ;
+       -moz-box-sizing: border-box ;
+    -webkit-box-sizing: border-box ;
+}
+
+body, div {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body {
+    font-family: monospace ;
+    //background: url("http://fc05.deviantart.net/fs71/i/2013/250/5/c/indust__stuff_by_xpe-d6ld1ze.jpg") no-repeat fixed center #000 ;
+    background: url("/style/images/background.jpg") no-repeat fixed center #000 ;
+        
+    background-size: cover ;
+    -webkit-background-size: cover ;
+}
+
+/******************************************************************************
+ * Header
+ */
+
+#Header {
+    background: none repeat scroll 0% 0% #201B15 ;
+    height: 50px ;
+    margin: 0 0 160px 0 ;
+    color: #DFDCD4 ;
+    border-bottom: 1px solid #BFB8A8 ;
+    box-shadow: 0px 0px 10px #201B15 ;
+}
+
+#Header .wrapper {
+    max-width: 1200px ;
+    padding: 0 ;
+    margin: 0 auto 0 auto ;
+}
+
+#Header a {
+    color: #DE7F1F ;
+    text-decoration: none ;
+}
+
+/* * * * * * * *
+ * Title and "connexion area"
+ */
+
+#Title {
+    float: left ;
+    vertical-align: top ;
+    width: 380px ;
+    background: #201B15 ;
+    border: 1px solid #BFB8A8 ;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    margin: 5px ;
+    padding: 10px ;
+    box-shadow: 0px 0px 10px #201B15 ;
+}
+
+#Luchronia {
+    text-align: center ;
+    line-height: 40px ;
+    font-size: 40px ;
+    font-family: "Special Elite", monospace;
+    margin: 0 ;
+}
+
+#Session {
+    display: inline-block ;
+    width : 100%;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: 1px solid #f4eee8;
+    color: #f4eee8;
+    text-align: center;
+}
+
+.login_input p {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.login_input label, .login_input input {
+   margin : 3px;
+   display: inline-block ;
+   vertical-align: middle ;
+   padding:3px 3px 3px 30px;;
+   border:1px solid #685b4e;
+   border-radius:3px;
+   width:100%;
+   box-shadow:1px 1px 2px #ffe9d3 inset;
+   //background-color: #DFDCD4; 
+
+}
+
+.login_input input[type="text"] {
+   background : url('/Media/icones/misc/Character.png') no-repeat #DFDCD4;
+   background-size : 20px;
+}
+
+.login_input input[type="password"] {
+   background : url('/Media/icones/misc/Password.png') no-repeat #DFDCD4;
+   background-size : 20px;
+}
+
+.login_input label {
+    font-weight: bold ;
+}
+.login_submit, .login_links {
+    display: inline ;
+}
+
+.login_submit{
+    padding : 2px;
+    display : inline-block;
+}
+
+.login_submit input[type="submit"]{
+    padding : 2px;
+    border:1px solid #685b4e;
+    border-radius:5px;
+    box-shadow:1px 1px 2px #ffe9d3 inset;  
+    background : #DFDCD4;
+ }
+ 
+
+#Session .avatar {
+    float: left ;
+    margin-left:5px ;
+}
+
+#Session ul, #Session p {
+    padding: 0 ;
+    margin: 0 ;
+}
+
+#Session li {
+    list-style-type: none ;
+    display: inline-block ;
+    margin-right: 10px ;
+}
+
+#Session .avatar {
+    width: 40px ;
+}
+
+p.char_name {
+    line-height: 20px ;
+    font-size: 20px ;
+    font-weight: bold ;
+}
+
+#Session img.icone-inline {
+    height: 1em ;
+    margin-right: 10px ;
+}
+
+#Session .informations {
+    margin-left: 50px ;
+}
+
+#Session .informations span {
+    display: inline-block ;
+    text-align: right ;
+}
+
+/* * * * * * * *
+ * Navigations
+ */
+
+#Nav {
+}
+
+#Nav ul {
+    margin: 0 ;
+    padding: 0 ;
+    position: relative ;
+}
+
+#Nav li {
+    list-style-type: none ;
+    margin: 0 ;
+    display: inline-block  ;
+}
+
+@-webkit-keyframes clignote {
+    0%{box-shadow:0px 0px 30px #DE7F1F inset;}
+    50%{box-shadow:0px 0px 0px #DE7F1F inset;}
+    100%{box-shadow:0px 0px 30px #DE7F1F inset;}
+}
+
+@keyframes clignote {
+    0%{box-shadow:0px 0px 30px #DE7F1F inset;}
+    50%{box-shadow:0px 0px 0px #DE7F1F inset;}
+    100%{box-shadow:0px 0px 30px #DE7F1F inset;}
+}
+
+#Nav li img.menu_icon {
+    margin: 10px 5px 10px 5px;
+    height: 30px ;
+    
+    border-radius: 3px;
+    padding: 5px 5px;
+    border: 1px solid #DDD;
+}
+
+#Nav li img.blink {
+    animation-name: clignote; 
+    animation-duration: 1s; 
+    animation-iteration-count:infinite;   
+    -webkit-animation :clignote 1s infinite;       
+}
+
+#GameMenu {
+    float: left ;
+    vertical-align: top ;
+    text-align: left ;
+}
+
+#SiteMenu {
+    float: right ;
+    vertical-align: top ;
+    text-align: right ;
+}
+
+#GameMenu span.menu_text {
+    position: absolute ;
+    top: 60px ;
+    left: 0px ;
+    display: none ;
+    min-width: 400px ;
+}
+
+#SiteMenu span.menu_text {
+    position: absolute ;
+    top: 60px ;
+    right: 0px ;
+    display: none ;
+    min-width: 400px ;
+}
+
+#Nav li:hover span.menu_text {
+    display: block ;
+}
+
+span.menu_text strong {
+    display: block ;
+    font-size: 20px ;
+}
+
+/******************************************************************************
+ * Content : about area
+ */
+
+#About {
+    color: #DFDCD4 ;
+    margin: 20px ;
+}
+
+#About a {
+    color: #DE7F1F ;
+    text-decoration: none ;
+}
+
+
+
+/******************************************************************************
+ * Content
+ */
+
+#Main {
+    max-width: 1200px ;
+    margin: 0 auto 0 auto ;
+}
+
+
+.card-1-1 { width: 100% ; display: inline-block ; vertical-align: top ; }
+.card-2-3 { width:  66% ; display: inline-block ; vertical-align: top ; }
+.card-1-2 { width:  50% ; display: inline-block ; vertical-align: top ; }
+.card-1-3 { width:  33% ; display: inline-block ; vertical-align: top ; }
+.card-1-4 { width:  24% ; display: inline-block ; vertical-align: top ; }
+.card-3-4 { width:  74% ; display: inline-block ; vertical-align: top ; }
+.card-1-5 { width:  20% ; display: inline-block ; vertical-align: top ; }
+.card-1-6 { width:  15% ; display: inline-block ; vertical-align: top ; }
+
+.left  { float: left ; }
+.right { float: right; }
+.clear { clear: both ; }
+
+div.section div.wrapper {
+    border: #BFB8A8 solid 1px ;
+    border-radius: 3px ;
+    box-shadow: 0px 0px 10px #201B15 ;
+    /*
+    background-color: #201B15 ;
+    */
+    background: rgba(125,75,19,0.6);
+    color: #DFDCD4 ;
+    margin: 10px ;
+}
+
+div.section-head {
+    margin: 10px ;
+    border-bottom: #BFB8A8 solid 1px ;
+}
+
+div.section-head a{
+    color : #ffce82 ;
+}
+
+div.section span.more:before {
+    content: "( " ;
+}
+div.section span.more:after {
+    content: " )" ;
+}
+
+div.section span.more {
+    
+    display: inline-block ;
+    vertical-align: middle ;
+}
+
+h1.section-title {
+    display: inline-block ;
+    vertical-align: middle ;
+    padding: 5px ;
+    margin: 0 ;
+}
+
+div.section span.meta {
+    margin: 0 10px 0 10px ;
+    font-style: italic ;
+    padding: 0 ;
+}
+
+div.section-content {
+    margin: 10px ;
+    padding: 10px ;
+    border: #BFB8A8 solid 1px ;
+    background: linear-gradient(135deg, rgba(255,251,247,1) 0%, rgba(245,234,223,1) 100%);
+    /* background-color: #DFDCD4 ; */
+    color: #3e3428 ;
+}
+
+.section a {
+    color: #DE7F1F ;
+    text-decoration: none ;
+}
+
+/******************************************************************************
+ * Notifications and news (main page)
+ */
+
+div.notification {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+ul.news {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+ul.news li {
+    list-style-type: none ;
+    box-shadow: 0px 0px 2px #201B15 ;
+    border-radius: 5px ;
+    margin: 5px ;
+    padding: 5px ;
+}
+
+ul.news li:hover {
+    background: #ffe9d3 ;
+}
+
+div.news div.icon {
+    display: inline-block ;
+    vertical-align: middle ;
+    margin-right: 5px ;
+}
+
+div.news div.icon img {
+    height: 3em ;
+    width: auto ;
+}
+
+div.news div.content {
+    display: inline-block ;
+    vertical-align: middle ;
+}
+
+div.news div.date {
+    font-weight: bold ;
+}
+
+div.news div.message p {
+    margin: 0 ;
+}
+/******************************************************************************
+ * Blog Stuff
+ */
+
+.post-summary h2 {
+    margin: 0 ;
+}
+
+p.meta-when {
+    margin: 0 ;
+    padding: 0 ;
+    font-style: italic ;
+}
+
+div.post-icon {
+    display: inline-block ;
+    width: 20% ;
+    margin: 2% ;
+    vertical-align: top ;
+}
+
+div.post-icon img {
+    width: 100% ;
+    height: auto ;
+    border-radius: 5px ;
+    filter: sepia(100%) ;
+}
+
+div.post-head {
+    width: 76% ;
+    display: inline-block ;
+    vertical-align: top ;
+}
+
+ul.page-selector {
+    margin: 0 ;
+    padding: 0 ;
+    display: inline ;
+}
+
+ul.page-selector li {
+    padding: 0 ;
+    margin-left: 0.5em ;
+    display: inline ;
+    list-style-type: none ;
+}
+
+ul.page-selector li.current {
+    border-bottom: solid 1px ;
+    font-weight: bold ;
+}
+
+/******************************************************************************
+ * Item list
+ */
+
+ul.itemList {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+ul.itemList li {
+    list-style-type: none ;
+}
+
+div.item {
+    box-shadow: 0px 0px 2px #201B15 ;
+    border-radius: 1% ;
+    margin: 1%;
+    padding: 1% ;
+}
+
+div.item:hover {
+    background: #ffe9d3 ;
+}
+
+div.item div.icon {
+    display: inline-block ;
+    vertical-align: middle ;
+    text-align: center ;
+    width: 15% ;
+}
+
+div.item div.icon img {
+    width: 100% ;
+    padding: 5px ;
+    height: auto ;
+}
+
+div.item div.description {
+    display: inline-block ;
+    vertical-align: middle ;
+    width: 85% ;
+    padding: 5px ;
+}
+
+div.item div.name {
+    font-weight: bold ;
+}
+
+div.item div.links img {
+    margin-top: 2px ;
+    height: 1em ;
+}
+
+
+/******************************************************************************
+ * Images and objects
+ */
+
+div.blog-illustr img {
+    float: left ;
+    width: 30% ;
+    margin: 2% ;
+    filter: sepia(100%) ;
+    border-radius: 3% ;
+}
+
+div.thumb {
+    padding: 5px ;
+    display: inline-block ;
+    vertical-align: top ;
+}
+
+object.avatar-med {
+    width: 100px ;
+}
+
+object.avatar-tiny {
+    height: 50px ;
+}
+
+object.avatar-mini {
+    width: 50px ;
+}
+
+object.icone-inline, img.icone-inline, .icone {
+    height: 1em ;
+}
+
+.icone-med {
+    height: 2.5em ;
+    vertical-align: middle ;
+}
+
+img.full, object.full, svg.map {
+    width: 100% ;
+    height: auto ;
+}
+
+img, object {
+    max-width: 100% ;
+    height: auto ;
+}
+
+/******************************************************************************
+ * Footer
+ */
+
+#Footer {
+    max-width: 1200px ;
+    margin: 0 auto 0 auto ;
+    text-align: center ;
+    color: #DFDCD4 ;
+    border-top: 1px solid #BFB8A8 ;
+    clear: both ;
+}
+
+#Footer a {
+    color: #DE7F1F ;
+    text-decoration: none ;
+}
+
+/******************************************************************************
+ * Generic tags
+ */
+
+meter {
+    -webkit-appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+/******************************************************************************
+ * Misc
+ */
+
+.startpos_line {
+    stroke: red ;
+    stroke-width: 2px ;
+}
+
+.startpos_city {
+    stroke: black ;
+    stroke-width: 2px ;
+    fill: red ;
+}
+
+

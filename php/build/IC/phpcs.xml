@@ -1,0 +1,26 @@
+﻿<ruleset name="Custom Standard">
+    <description>A custom coding standard</description>
+
+    <exclude-pattern>*/tests/*</exclude-pattern>
+    <exclude-pattern>*/data/*</exclude-pattern>
+
+    <rule ref="PEAR">
+        <!-- On autorise les retours a la ligne Windows -->
+        <exclude name="Generic.Files.LineEndings.InvalidEOLChar" />
+        <!-- Le code est proprietaire, pas la peine de mettre une licence -->
+        <exclude name="PEAR.Commenting.FileComment.EmptyLicense" />
+        <!-- Le code est proprietaire pas la peine de dire la version php -->
+        <exclude name="PEAR.Commenting.FileComment.MissingVersion" />
+        <!-- Pas besoin de forcer les tags utilises -->
+        <exclude name="PEAR.Commenting.FileComment.MissingTag" />
+        <!-- Pas besoin de forcer les tags -->
+        <exclude name="PEAR.Commenting.ClassComment.MissingTag" />
+		<!-- incompatible avec netbeans -->
+        <exclude name="PEAR.WhiteSpace.ScopeIndent.Incorrect" />
+    </rule>
+
+    <rule ref="PEAR.Commenting.FileComment.MissingTag">
+            <severity>0</severity>
+    </rule>
+	
+</ruleset>

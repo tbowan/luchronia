@@ -1,0 +1,29 @@
+
+
+div.forum-post {
+    margin: 20px 0 20px 0 ;
+}
+
+.post-left {
+    float: left ;
+    width: 50px ;
+}
+
+.post-right {
+    float: right;
+    width: 50px ;
+}
+
+.post-center {
+    margin: 0 60px 0 60px ;
+}
+
+.post-head {
+    font-weight: bold ;
+}
+
+.post-content {
+    border-radius : 10px ;
+    box-shadow: 0px 2px 4px #888 ;
+    padding: 10px ;
+}

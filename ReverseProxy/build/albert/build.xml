@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Luchronia" basedir="../..">
+
+	<target name="prelude" depends="chmod, prelude-sudo"/>
+	
+	<target name="chmod" description="Detournement du reverse proxy">
+		<exec executable="chmod">
+			<arg value="u+x"/>
+			<arg value="${basedir}/build/albert/replace-config.sh"/>
+		</exec>
+	</target>
+
+	<target name="prelude-sudo" description="Detournement du reverse proxy">
+		<exec executable="sudo">
+			<arg value="${basedir}/build/albert/replace-config.sh"/>
+			<arg value="${basedir}/build/albert/maintenance.conf"/>
+		</exec>
+	</target>
+ 
+	<target name="epilogue" depends="chmod, epilogue-sudo" />
+
+	<target name="epilogue-sudo" description="Remise en place du reverse proxy">
+		<exec executable="sudo">
+			<arg value="${basedir}/build/albert/replace-config.sh"/>
+			<arg value="${basedir}/build/albert/load-balance.conf"/>
+		</exec>
+	</target>
+
+ 
+</project>

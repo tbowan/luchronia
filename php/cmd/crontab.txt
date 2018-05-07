@@ -1,0 +1,1 @@
+*/1 * * * * php -f {$base}/utils/cron/update.php 1> /home/thibaut/stdout.txt 2> /home/thibaut/stderr.txt

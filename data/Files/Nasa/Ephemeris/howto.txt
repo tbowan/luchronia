@@ -1,0 +1,8 @@
+http://ssd.jpl.nasa.gov/horizons.cgi
+
+Réglages : 
+* Ephemeris Type : Observer
+* Target Body : Sun [Sol] [10]
+* Observer location : user definded @301 (0°00'00.0"E, 0°00'00.0"N)
+* Time span : Start=1894-12-31, Stop=1896-12-31, Step=1 d
+* Table Settings : QUANTITIES=14 (Observer sub-lon & sub-lat)

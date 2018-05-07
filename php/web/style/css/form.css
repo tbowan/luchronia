@@ -1,0 +1,126 @@
+
+.QForm label {
+    font-weight: bold ;
+    display: block ;
+}
+
+.QForm .choice label, .QForm label.inline {
+    display: inline ;
+}
+
+.QForm textarea {
+    width: 99% ;
+    height: 25em ;
+}
+
+.QForm tr.rowOdd {
+}
+
+.QForm tr.rowEven {
+}
+
+.QForm div.submit {
+    text-align: center ;
+}
+
+.QForm input.yes, .QForm input.no {
+    width: 100px ;
+    margin: 10px 20px 30px 20px ;
+}
+
+
+/* Form Enum */
+
+.QForm .form_enum {
+    
+}
+
+.QForm .form_enum label {
+    display: block ;
+}
+.QForm .form_enum input[type=radio] {
+    display: none ;
+}
+
+.QForm .form_enum div.illustration img {
+    width: 3em ;
+    margin: 0.5em ;
+    float: left ;
+    pointer-events: none ;
+}
+
+.QForm .form_enum div.name {
+    margin-left: 4em ;
+    font-weight: bold ;
+}
+
+.QForm .form_enum div.description {
+    margin-left: 4em ;
+    font-weight: normal ;
+}
+
+.QForm .form_enum img.selected {
+    display: none ;
+}
+
+.QForm .form_enum input[type=radio]:checked + label img.unselected {
+    display: none ;
+}
+
+.QForm .form_enum input[type=radio]:checked + label img.selected {
+    display: block ;
+}
+
+/* Form Avatar */
+
+.avatar-selects label {
+    display: block ;
+}
+
+.avatar-selects label img {
+    pointer-events: none ;
+}
+
+.avatar-layer-icone, .avatar-item-icone {
+    background-color: rgba(150,75,34,0.4) ;
+    margin : 7px;
+    border: solid 1px black;
+}
+
+/* Form */
+
+.QForm input, .QForm textarea, .QForm select, .QForm option {
+ background-color: #f4eee8;
+ }
+ 
+ .QForm input[type="text"], .QForm textarea {
+ padding:3px;
+ border:1px solid #685b4e;
+ border-radius:5px;
+ width:100%;
+ box-shadow:1px 1px 2px #ffe9d3 inset;
+ }
+ 
+.QForm select, .QForm input {
+ padding:3px;
+ border:1px solid #685b4e;
+ border-radius:5px;
+ min-width:200px;
+ box-shadow:1px 1px 2px #ffe9d3 inset;
+ }
+ 
+ /* Two Side Forms */
+ 
+.QFormTwoSide .form_message {
+     width: 50% ;
+     float: left ;
+ }
+ 
+.QFormTwoSide .form_data, .QFormTwoSide .form_submits  {
+    width: 50% ;
+    float: right ;
+ }
+ 
+ .QFormChoice input, .QFormChoice label {
+     display: inline ;
+ }
